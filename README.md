@@ -9,4 +9,4 @@ From the [SkillFactory Data Science course](https://skillfactory.ru/data-scienti
 * [Проект 2._______](_____)
 
 ## goKGS.com
-golovasV
+golovas
