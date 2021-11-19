@@ -4,7 +4,7 @@ From the [SkillFactory Data Science course](https://skillfactory.ru/data-scienti
 
 ## Projects
 
-* [Проект 0. Игра: Угадай число](https://github.com/GolovasPlech/sf_data_satanist/prj0)
+* [Проект 0. Игра: Угадай число](https://github.com/GolovasPlech/sf_data_satanist/tree/main/prj0)
 * [Проект 1._______](_____)
 * [Проект 2._______](_____)
 
