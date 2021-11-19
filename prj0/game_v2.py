@@ -11,8 +11,29 @@ def random_predict(number: int = 1) -> int:
             break  # выход из цикла, если угадали
     return count
 
+# функция улучшенного угадывания
+def random_better_predict(number: int = 1) -> int:
 
-print(f"Количество попыток: {random_predict()}")
+    count = 0
+    range_min = 1
+    range_max = 101
+    
+    while True:
+        count += 1
+        
+        predict_number = np.random.randint(range_min, range_max)  # предполагаемое число в диапазоне
+        if number > predict_number:
+            range_min = predict_number    #увеличиваем нижнюю границу подбора
+            continue
+        if number < predict_number:
+            range_max = predict_number   #уменьшаем верхнюю границу подбора
+            continue
+        if number == predict_number:
+            break  # выход из цикла, если угадали
+    return count
+
+print(f"Количество попыток базового алгоритма: {random_predict()}")
+print(f"Количество попыток улучшенного алгоритма: {random_better_predict()}")
 
 def score_game(random_predict) -> int:
     """За какое количество попыток в среднем за 1000 подходов угадывает наш алгоритм
@@ -39,3 +60,4 @@ def score_game(random_predict) -> int:
 # RUN
 if __name__ == '__main__':
     score_game(random_predict)
+    score_game(random_better_predict)
