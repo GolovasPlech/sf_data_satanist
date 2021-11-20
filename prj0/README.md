@@ -1,13 +1,13 @@
 # Project0. Игра: Угадай число.
 
 ## Содержание
-[1.Описание проекта](https://github.com/GolovasPlech/sf_data_satanist/tree/main/prj0/README.md#Описание-проекта)
+ :arrow_right: [1.Описание проекта](https://github.com/GolovasPlech/sf_data_satanist/tree/main/prj0/README.md#Описание-проекта)
 
-[2.Этапы разработки](https://github.com/GolovasPlech/sf_data_satanist/tree/main/prj0/README.md#Этапы-разработки)
+ :arrow_right: [2.Этапы разработки](https://github.com/GolovasPlech/sf_data_satanist/tree/main/prj0/README.md#Этапы-разработки)
 
-[3.Руководство](https://github.com/GolovasPlech/sf_data_satanist/tree/main/prj0/README.md#Руководство)
+ :arrow_right: [3.Руководство](https://github.com/GolovasPlech/sf_data_satanist/tree/main/prj0/README.md#Руководство)
 
-[4.Результаты](https://github.com/GolovasPlech/sf_data_satanist/tree/main/prj0/README.md#Результаты)
+ :arrow_right: [4.Результаты](https://github.com/GolovasPlech/sf_data_satanist/tree/main/prj0/README.md#Результаты)
 
 ### Описание проека
 Игра в которой нужно угадать случайное число от 1 до 100 за минимальное количество попыток.
@@ -15,13 +15,10 @@
 [В начало](https://github.com/GolovasPlech/sf_data_satanist/tree/main/prj0/README.md#Содержание)
 
 ### Этапы разработки
- :arrow_right: Настройка рабочей среды и репозитория.
-
- :arrow_right: Запуск запуск базового алгоритма из упражнения.
- 
- :arrow_right: Улучшение базового алгоритма: нахождение случайного числа не более чем за 20 попыток.
- 
- :arrow_right: Оформление документации.
+ * Настройка рабочей среды и репозитория.
+ * Запуск запуск базового алгоритма из упражнения.
+ * Улучшение базового алгоритма: нахождение случайного числа не более чем за 20 попыток.
+ * Оформление документации.
 
 [В начало](https://github.com/GolovasPlech/sf_data_satanist/tree/main/prj0/README.md#Содержание)
 
